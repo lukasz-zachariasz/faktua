@@ -5,14 +5,17 @@
  */
 package faktura;
 
-import java.util.List;
-
 /**
  *
  * @author Reniferek
  */
-public class Grupa {
-    private List<Student> members;
-    private String name;
+public class Main {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+    }
     
 }

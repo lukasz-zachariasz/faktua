@@ -9,7 +9,7 @@ package faktura;
  *
  * @author Reniferek
  */
-class Student {
+public class Student {
 
     private String firstName;
     private String lastName;
