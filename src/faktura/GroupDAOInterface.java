@@ -12,9 +12,14 @@ import java.util.List;
  * @author Reniferek
  */
 public interface GroupDAOInterface {
-    public List<Student> getStudentsList();
-    public void removeStudent(String id);
-    public void addStudent(Student newStudent);
-    public void updateStudent(Student newStudent, String oldId);
+
+    public List<Group> getGroupList();
+
+    public void addGroup(Group newGroup);
+
+    public void getGroup(String name);
+
+    public void updateGroup(Group newGroup, String oldId);
+
     public void removeGroup();
 }
